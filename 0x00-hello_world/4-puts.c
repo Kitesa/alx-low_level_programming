@@ -2,7 +2,7 @@
 #include <string.h>
 int main(void) 
 {
-/*My First C function*/
+//FIrst C programming in alx
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
