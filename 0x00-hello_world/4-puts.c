@@ -3,11 +3,10 @@
  * Main
  * puts strings
  * return0
- * exi
+ * exit
  */
 int main(void) 
-/*DEscription*/
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+puts("\"Programming is like building a multilingual puzzle\n");
+return (0);
 }
