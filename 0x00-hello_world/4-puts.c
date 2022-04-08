@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
- * Main
- * puts strings
- * return0
- * exit
+ * main - entry point
+ * puts - strings
+ * return: 0 after printing
  */
 int main(void) 
 {
