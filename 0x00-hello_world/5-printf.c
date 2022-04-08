@@ -1,8 +1,8 @@
 #include <stdio.h>
 /*
- * main - entry point
+ *main - entry point
  *
- * Return: 0 after completion
+ *Return: 0 after completion
  */
 int main(void)
 {
