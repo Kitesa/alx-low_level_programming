@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * Main
+ * puts strings
+ * return0
+ * exi
+ */
 int main(void) 
 /*DEscription*/
 {
