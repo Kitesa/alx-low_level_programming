@@ -3,7 +3,7 @@
 /**
  * main - print alphabet in lowercase
  *
- * Return 0 on successful completion
+ * Return: 0 on successful completion
  *
  */
 int main(void)
@@ -16,6 +16,6 @@ while (ch <= 'z')
 putchar(ch);
 ch++;
 }
-
+putchar(\n);
 return (0);
 }
