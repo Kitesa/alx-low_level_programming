@@ -8,9 +8,6 @@
  * */
 int main(void)
 {
-	/*                                                                                                                     
-	 *                                                                                                                                       Print n is positive if it is greater than zero                                                                       
-	 *                                                                                                                                 	*/  
 	int n;
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
