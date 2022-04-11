@@ -2,10 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /*
- * main - check whether a randomely generated
- * 	  number is positive or zero or negative
  *
- * Return 0 always
+ *
  *
  */
 int main(void)
