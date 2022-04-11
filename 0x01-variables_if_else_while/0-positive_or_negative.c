@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 /*
- * main - A function to check whether a number is negative or positive
+ * main - check whether a randomely generated
+ * 	  number is positive or zero or negative
  *
- * Return: 0 after completion
+ * Return 0 always
  *
  */
 int main(void)
