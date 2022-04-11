@@ -8,20 +8,12 @@
  */
 int main(void)
 {
-char letter = 'a';
-
-while (letter <= 'z')
+for (letter = 'a'; letter <= 'z', letter++)
 {
-if (letter == 'e' || letter == 'q')
-{
-continue;
-}
-else
+if(letter != 'e' || letter != 'q')
 {
 putchar(letter);
 }
-letter++;
 }
-
 return (0);
 }
