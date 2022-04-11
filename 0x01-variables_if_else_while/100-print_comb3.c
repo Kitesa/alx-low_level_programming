@@ -18,7 +18,7 @@ for (num2 = num1 + 1; num2 <= 9; num2++)
 putchar(num1);
 putchar(num2);
 }
-putchar(', ');
+putchar(',');
 }
 return (0);
 }
