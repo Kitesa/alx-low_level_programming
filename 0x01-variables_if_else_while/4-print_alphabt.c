@@ -18,7 +18,7 @@ if (letter == 'e' || letter == 'q')
 letter++;
 continue;
 }
-letter++;
+
 }
 
 return (0);
