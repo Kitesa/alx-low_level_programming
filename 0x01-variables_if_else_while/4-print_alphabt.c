@@ -10,7 +10,7 @@ int main(void)
 {
 char letter = 'a';
 
-do{
+do {
 	if (letter == 'e' || letter == 'q')
 	{
 		letter++;
