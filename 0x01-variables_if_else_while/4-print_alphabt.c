@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-/*
+/**
  * main - print alphabets except e and q
  *
  * Return: zero on successfull completion
@@ -20,5 +20,6 @@ continue;
 }
 letter++;
 }
+putchar('\n');
 return (0);
 }
