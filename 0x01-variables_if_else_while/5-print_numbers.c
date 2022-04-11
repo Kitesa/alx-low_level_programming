@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
- *
  * main - print single digit numbers of base ten.
  *
  * Return: zero after successful comletion
