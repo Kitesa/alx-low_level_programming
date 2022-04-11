@@ -13,7 +13,8 @@ ch =  'a';
 
 while (ch <= 'z')
 {
-putchar("%c", ch);
+putchar(ch);
+ch++;
 }
 
 return (0);
