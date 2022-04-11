@@ -12,11 +12,9 @@ char letter = 'a';
 
 while (letter <= 'z')
 {
-putchar(letter);
-if (letter == 'e' || letter == 'q')
+if (letter != 'e' || letter != 'q')
 {
-letter++;
-continue;
+putchar(letter);
 }
 letter++;
 }
