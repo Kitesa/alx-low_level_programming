@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  *
- * main - print single digit numbers of base 10
+ * main - print single digit numbers of base ten.
  *
- * Return - zero after successful comletion
+ * Return: zero after successful comletion
  *
  */
 int main(void)
