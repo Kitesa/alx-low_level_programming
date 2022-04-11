@@ -8,9 +8,8 @@
  */
 int main(void)
 {
-ch_lower = 'a';
-ch_upper = 'A';
-
+char ch_upper = 'A';
+char ch_lower = 'a';
 while (ch_lower <= 'z')
 {
 putchar(ch_lower);
