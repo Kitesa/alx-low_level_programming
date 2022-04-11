@@ -14,7 +14,7 @@ do
 {
 	if (letter == 'e' || letter == 'q')
 	{
-		letter++
+		letter++;
 		continue;
 	}
 	putchar(letter);
