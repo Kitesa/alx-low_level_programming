@@ -18,7 +18,7 @@ do
 		continue;
 	}
 	putchar(letter);
-	letter++
+	letter++;
 while(letter <= 'z');	
 return (0);
 }
