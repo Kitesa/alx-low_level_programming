@@ -12,11 +12,11 @@ char letter = 'a';
 
 while (letter <= 'z')
 {
+putchar(letter);
 if (letter == 'e' || letter == 'q')
 {
 	continue;
 }
-putchar(letter);
 letter++;
 }
 return (0);
