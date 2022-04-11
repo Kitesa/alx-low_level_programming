@@ -10,7 +10,7 @@ int main(void)
 {
 char base_16_alphabet;
 
-for (base_16_alphabet = 48; base_16_alphabet <= 57; base_16_alphabet)
+for (base_16_alphabet = 48; base_16_alphabet <= 57; base_16_alphabet++)
 {
 putchar(base_16_alphabet);
 }
