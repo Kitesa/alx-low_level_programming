@@ -14,19 +14,12 @@ for (time = 0; time < 23; time++)
 {
 for (sec = 0; sec < 60; sec++)
 {
-if (time < 10)
-{
-_putchar('0');
-_putchar(time);
+_putchar(time % 10 + '0');
+_putchar(time % 10 + '0');
 _putchar(':');
-_putchar('0'+ sec);
+_putchar(sec % 10 + '0');
+_putchar(sec % 10 + '0');
 _putchar('\n');
-}
-else
-{
-_putchar(time);
-_putchar(sec);
-}
 }
 }
 }
