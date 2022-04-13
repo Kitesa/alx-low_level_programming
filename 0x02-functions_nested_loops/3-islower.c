@@ -7,7 +7,6 @@
  * Return: zero 0 for uppercase and 1 for lowercase
  *
  */ 
- 
 int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
