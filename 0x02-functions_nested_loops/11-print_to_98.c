@@ -15,10 +15,11 @@ if (n > 98)
 {
 for (number = n; number > 97; number--)
 {
-printf("\d", number);
+_putchar(number);
 if (number != 98)
 {
-printf(", ");;
+_putchar(',');
+_putchar(' ');
 }
 }
 }
@@ -26,12 +27,13 @@ else
 {
 for (number = n; number < 99; number++)
 {
-printf("\d", number);
+_putchar(number);
 if (number != 98)
 {
-printf(", ");
+_putchar(',');
+_putchar(' ');
 }
 }
 }
-printf("\n");
+_putchar('\n');
 }
