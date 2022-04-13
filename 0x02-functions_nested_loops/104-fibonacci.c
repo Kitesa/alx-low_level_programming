@@ -18,11 +18,10 @@ unsigned long half1, half2;
 for (count = 0; count < 92; count++)
 {
 sum = fibo1 + fibo2;
-printf("%lu", sum);
+printf("%lu, ", sum);
 
 fibo1 = fibo2;
 fibo2 = sum;
-
 }
 fibo1_half1 = fibo1 / 10000000000;
 fibo2_half1 = fibo2 / 10000000000;
@@ -33,7 +32,6 @@ for (count = 93; count < 99; count++)
 {
 half1 = fibo1_half1 + fibo2_half1;
 half2 = fibo1_half2 + fibo2_half2;
- 
 if (fibo1_half2 + fibo2_half2 > 9999999999)
 {
 half1 += 1;
