@@ -10,7 +10,7 @@ int main(void)
 {
 int counter = 0;
 unsigned long fibo1 = 0;
-unsigned long fibo2 = 0;
+unsigned long fibo2 = 1;
 unsigned long sum;
 
 for (counter = 0; counter < 50; counter++)
@@ -29,5 +29,3 @@ printf(", ");
 }
 return (0);
 }
-
-
