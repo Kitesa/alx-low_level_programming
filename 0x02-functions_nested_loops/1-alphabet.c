@@ -12,8 +12,8 @@ char counter = 'a';
 
 while (counter <= 'z')
 {
-putchar(counter);
+_putchar(counter);
 counter++;
 }
-putchar('\n');
+_putchar('\n');
 }
