@@ -2,18 +2,19 @@
 /**
  * _abs - computes absolute value
  *
- * @int: input parameter
+ * @c: input parameter
  * 
- * Return: 
+ * Return: c if c is greater than zero -1*c else
+ *
  */
-int _abs(int)
+int _abs(int c)
 {
-if (int >= 0)
+if (c >= 0)
 {
-return (int);
+return (c);
 }
 else
 {
-return ( -1 * int);
+return (-1 * c);
 }
 }
