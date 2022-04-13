@@ -3,7 +3,7 @@
  * _abs - computes absolute value
  *
  * @c: input parameter
- * 
+ *
  * Return: c if c is greater than zero -1*c else
  *
  */
