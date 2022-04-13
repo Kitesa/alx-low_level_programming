@@ -15,7 +15,7 @@ return ((c % 10)*(-1));
 }
 else
 {
-return (ln + '0');
+return (c + '0');
 }
 }
 
