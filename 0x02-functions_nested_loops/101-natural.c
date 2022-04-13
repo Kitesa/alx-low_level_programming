@@ -20,5 +20,5 @@ sum += counter;
 counter++;
 }
 }
-printf("%d",sum);
+return(sum);
 }
