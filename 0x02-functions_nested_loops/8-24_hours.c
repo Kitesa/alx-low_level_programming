@@ -20,6 +20,7 @@ _putchar('0');
 _putchar(time);
 _putchar(':');
 _putchar('0'+ sec);
+_putchar('\n');
 }
 else
 {
