@@ -25,7 +25,8 @@ _putchar(' ');
 num3 = num1 * num2;
 
 if (num3 <= 99)
-{
+_putchar(' ');
+if (num3 <= 9)
 _putchar(' ');
 
 if (num3 >= 100)
@@ -40,7 +41,6 @@ _putchar((num3 / 10) + '0');
 _putchar((num3 % 10) + '0');
 }
 _putchar('\n');
-}
 }
 }
 }
