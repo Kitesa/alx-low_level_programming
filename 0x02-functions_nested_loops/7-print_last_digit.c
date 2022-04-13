@@ -9,6 +9,13 @@
  */
 int print_last_digit(int c)
 {
-return (c % 10);
+if (c < 0)
+{
+return ((c % 10)*(-1));
+}
+else
+{
+return (ln + '0');
+}
 }
 
