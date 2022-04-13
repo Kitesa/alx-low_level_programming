@@ -27,7 +27,7 @@ else
 {
 for (number = n; number < 99; number++)
 {
-_putchar(number);
+printf(number);
 if (number != 98)
 {
 _putchar(',');
