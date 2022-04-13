@@ -2,10 +2,11 @@
 /**
  * _islower - checks for lowercase character.
  *
- * c - an input parameter for function _islower
+ *@c: an input parameter for function _islower
  *
- * Return: zero after successfull completion
- */
+ * Return: zero 0 for uppercase and 1 for lowercase
+ *
+ * */
 int _islower(int c)
 {
 if (c >= 'a' && c <= 'z')
