@@ -12,13 +12,11 @@ int main()
 int sum = 0;
 int counter = 0;
 
-while (counter < 1024)
+for (counter = 0; counter < 1024; counter++)
 {
 if((counter % 3 == 0) || (counter % 5 == 0))
-{
 sum += counter;
 }
-counter++;
-}
-printf("%d", sum);
+printf("%d\n", sum);
+return (0);
 }
