@@ -9,22 +9,29 @@
  */
 void print_to_98(int n)
 {
-if (n < 98)
-{
-int number = n;
+int number;
 
-for (number = n; number < 98; number++)
+if (n > 98)
 {
-_putchar(number);
+for (number = n; number > 97; number--)
+{
+printf("\d", number);
+if (number != 98)
+{
+printf(", ");;
+}
+}
 }
 else
 {
-int number = n;
-
-for (number = n; number = 98; number--)
+for (number = n; number < 99; number++)
 {
-_putchar(number);
+printf("\d", number);
+if (number != 98)
+{
+printf(", ");
 }
 }
 }
+printf("\n");
 }
