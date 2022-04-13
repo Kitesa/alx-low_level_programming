@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,7 +7,7 @@
  * Return: zero after completion
  *
  */
-int sum_of_multiple()
+int main()
 {
 int sum = 0;
 int counter = 0;
