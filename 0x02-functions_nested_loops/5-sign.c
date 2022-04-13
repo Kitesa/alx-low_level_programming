@@ -2,7 +2,7 @@
 /**
  * print_sign - check sign
  *
- * @c: an input to print_sign function
+ * @n: an input to print_sign function
  *
  * Return: 1 if true 0 else
  *
