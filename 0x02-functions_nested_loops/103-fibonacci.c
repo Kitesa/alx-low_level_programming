@@ -17,7 +17,7 @@ while (1)
 {
 sum = fibo1 + fibo2;
 
-if s(sum > 4000000)
+if (sum > 4000000)
 break;
 
 if ((sum % 2) == 0)
