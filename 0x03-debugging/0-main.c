@@ -2,8 +2,6 @@
 /**
  * main - checks whether number is positive or negative
  *
- * @i: input to the function
- *
  * Return: zero
  *
  */
