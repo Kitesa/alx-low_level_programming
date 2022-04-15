@@ -4,7 +4,7 @@
 /**
  * _isupper - return 1 if a is upper esle 0
  * @c: input for the function
- * 
+ *
  * Return: return zero
  *
  */
