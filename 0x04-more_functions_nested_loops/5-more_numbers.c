@@ -14,7 +14,7 @@ for (counter = 0; counter <= 9; counter++)
 {
 for (number = 0; number <= 14; number++)
 {
-_putchar(number + '0');
+_putchar(number);
 }
 _putchar('\n');
 }
