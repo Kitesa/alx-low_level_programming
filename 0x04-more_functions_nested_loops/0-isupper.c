@@ -3,7 +3,7 @@
 
 /**
  * _isupper - return 1 if a is upper esle 0
- * @n: input for the function
+ * @c: input for the function
  * 
  * Return: return zero
  *
