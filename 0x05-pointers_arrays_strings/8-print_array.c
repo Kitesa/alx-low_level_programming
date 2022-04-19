@@ -10,7 +10,7 @@
  * Return: void
  *
  */
-void print_array(int 8a, int n)
+void print_array(int *a, int n)
 {
 	int j;
 
