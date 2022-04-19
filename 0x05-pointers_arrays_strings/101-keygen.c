@@ -11,7 +11,7 @@ int main(void)
 {
 	int num;
 
-	srand(sime(0));
+	srand(time(0));
 	num = rand();
 
 	printf("%i\n", num);
