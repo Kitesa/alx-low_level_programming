@@ -12,7 +12,8 @@ int main(void)
 	char a[100];
 	int r, n, i;
 
-	n, i = 0;
+	n = 0;
+	i = 0;
 	srand(time(NULL));
 	while (n < 2625)
 	{
