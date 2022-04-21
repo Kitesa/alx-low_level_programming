@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strcmp - compares two strings
+ * _strcmp - compare two strings
  * @s1: the first string
  * @s2: the second string
  *
- * Return: integer value
+ * Return: int values
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -25,11 +25,7 @@ int _strcmp(char *s1, char *s2)
 	{
 		lim = a;
 	}
-	else
-	{
-		lim = b;
-	}
-	
+
 	while (c <= lim)
 	{
 		if (s1[c] == s2[c])
@@ -37,7 +33,6 @@ int _strcmp(char *s1, char *s2)
 			c++;
 			continue;
 		}
-		else
 		{
 			r = s1[c] - s2[c];
 			break;
