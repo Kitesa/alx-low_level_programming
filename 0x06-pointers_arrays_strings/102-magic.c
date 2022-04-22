@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main(void)
 {
 	int n;
@@ -10,5 +11,5 @@ int main(void)
 	p = &n;
 	*(p + 5) = 98;
 	printf("a[2] = %d\n", a[2]);
-	return (0)
+	return (0);
 }
