@@ -27,7 +27,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 		else
 			*r = n1[count] + n2[count];
 		count--;
-		count++;
+		count2++;
 	}
 	return (r);
 }
