@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * set_string =- function with two arguments
+ * set_string - function with two arguments
  * @s: pointer to string
  * @to: pointer to string
  *
