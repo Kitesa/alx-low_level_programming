@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strstr - function with two arguments
  * @haystack: char type pointer
