@@ -1,9 +1,10 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
  * _strstr - function with two arguments
  * @haystack: char type pointer
- * @needla: char type pointer
+ * @needle: char type pointer
  *
  * Description: locates a substring
  * Return: substring or null
