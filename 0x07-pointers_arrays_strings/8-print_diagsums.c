@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_diagrams - function with two arguments
+ * print_diagsums - function with two arguments
  * @a: int type pointer
  * @size: int type argument
  *
