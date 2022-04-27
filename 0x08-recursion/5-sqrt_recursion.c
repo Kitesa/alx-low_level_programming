@@ -1,19 +1,30 @@
 #include "main.h"
 
 /**
- * _pow_recursion - function with two arguments
- * @x: int type 1st argument
- * @y: int type 2nd argument
+ * counter - function with two argument
+ * @root: int type 1st argument
+ * @n: int type 2nd argument
  *
- * Description: returns the value of x raised to power of y
- * Return: value of x
+ * Description: to test conditions and return root
+ * Return: value of root
  */
-int _pow_recursion(int x, int y)
+int counter(int root, int n)
 {
-	if (y == 0)
-		return (1);
-	else if (y < 0)
+	if (n == (root * root))
+		return (root);
+	else if (root == n || root == -n)
 		return (-1);
 	else
-		return (x * _pow_recursion(x, y - 1));
+		return (counter(root + 1, n));
+}
+/**
+ * _sqrt_recursion - function with one argument
+ * @n: int type argument
+ *
+ * Description: returns the natural square root of a number
+ * Return: value of n
+ */
+int _sqrt_recursion(int n)
+{
+	return (counter(0, n));
 }
