@@ -6,7 +6,7 @@
  * @argc: number of arguments
  * @argv: argument list
  *
- * Return: Zero
+ * Return: one
  */
 int main(int argc, char *argv[])
 {
@@ -15,5 +15,5 @@ int main(int argc, char *argv[])
 	else
 		printf("Error");
 
-	return (0);
+	return (1);
 }
