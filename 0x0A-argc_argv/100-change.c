@@ -32,7 +32,7 @@ int coinConverter(int i)
 		}
 		else
 			i -= 1;
-
+		
 		count++;
 	}
 
@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
 
 	coin = 0;
 
-	if (argc != 1)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
@@ -67,6 +67,6 @@ int main(int argc, char *argv[])
 
 		printf("%d\n", coin);
 	}
-	
+
 	return (0);
 }
