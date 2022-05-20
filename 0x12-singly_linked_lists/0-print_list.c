@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include "lists.h"
 
 /**
  * print_list - function with one argument
