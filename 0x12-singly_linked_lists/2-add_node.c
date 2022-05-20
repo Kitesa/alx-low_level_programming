@@ -35,7 +35,7 @@ list_t *add_node(list_t **head, const char *str)
 
 char *_strdup(const char *str)
 {
-	int i,. j;
+	int i, j;
 	char *ptr;
 
 	if (str == NULL)
