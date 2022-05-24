@@ -8,7 +8,7 @@
  * Description: adds a new node at the biginning of linked list
  * Return: address of new elements or NULL if fail
  */
-listint_t *add_nodeint(listint_t **head const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *temp;
 
