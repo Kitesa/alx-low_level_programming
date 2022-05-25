@@ -6,7 +6,7 @@
  * @index: bth node of list
  *
  * Description: returns the nth node of linked list
- * return:nth node
+ * Return: nth node
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
