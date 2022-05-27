@@ -1,50 +1,49 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * print_binary - prints a decimal as a binary
- * @n: long integer argument
+ * _pow - calculates basto to power of power
+ * @base: base of the exponent
+ * @power: power of the exponent
  *
- * Description: changes decimal to binary
+ * REturn: value of base to power
+ *
+ */
+unsigned long int _pow(unsigned int base, unsigned int power)
+{
+	unsigned long int num;
+	unsigned int i;
+
+	num = 1;
+	for (i = 1; i <= power; i++)
+		num *= base;
+	return (num);
+}
+
+/**
+ * print_binary - prints a number in binary notation
+ * @n: number to point
+ *
  * Return: void
  */
 void print_binary(unsigned long int n)
 {
-	signed long int size;
-	char c;
-	int flag;
-
-	size = sizeof(n) * - 1;
-
-	if (n == 0)
-	{
-		printf("0");
-		return;
-	}
-
-	if (n == 1)
-	{
-		printf("1");
-		return;
-	}
+	unsigned long int divisor, check;
+	char flag;
 
 	flag = 0;
-
-	while (size >= 0)
+	divisor = _pow(2, sizeof(unsigned long int) * 8 - 1);
+	while (divisor != 0)
 	{
-		c = (n >> size) & 1;
-
-		if (flag == 1)
-			putchar(c + '0');
-		else
+		check = n & divisor;
+		if (check == divisor)
 		{
-			if (c == 1)
-			{
-				putchar(c + 'a');
-				flag = 1;
-			}
+			flag = 1;
+			_putchar('1');
 		}
-
-		size -= 1;
+		else if (flag == 1 || divisor == 1)
+		{
+			_putchar('0');
+		}
+		divisor >>= 1;
 	}
 }
