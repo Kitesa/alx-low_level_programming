@@ -3,7 +3,7 @@
 /**
  * append_text_to_file - Appens text at ends of a file
  * @filename: a pointer to name of file
- * @text_context: The string to append at the end of file
+ * @text_content: The string to append at the end of file
  * Return: if failed or NULL, -1 if it does not extis the user lacks write perm
  */
 int append_text_to_file(const char *filename, char *text_content)
