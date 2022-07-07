@@ -4,7 +4,7 @@
 /**
  * add_dnodeint - adds a new node at the beginning of a doubly linked list
  * @head: a pointer to the start of the list
- * @h: the data of new node
+ * @n: the data of new node
  *
  * Return: the address of the new element, else NULL
  */
