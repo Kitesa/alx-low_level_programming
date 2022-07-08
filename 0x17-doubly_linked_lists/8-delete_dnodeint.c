@@ -1,5 +1,5 @@
 #include "lists.h"
-
+#include <stdlib.h>
 /**
  * delete_dnodeint_at_index - a function that deletes the node at
  * index index of a dlistint_t linked list
