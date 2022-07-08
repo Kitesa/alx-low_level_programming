@@ -1,53 +1,47 @@
 #include "lists.h"
 
 /**
- * insert_dnodeint_at_index - Insert a new node at a given position
- * @h: head of the list
- * @idx: is the indexof th e  list
- * @n: data to bestord in node
+ * insert_dnodeint_at_index - a function that inserts a
+ * new node at a given position.
+ * @idx: the index of the list where the new node should
+ * be added. Index starts at 0
+ * @n: input node
+ * @h: head of linked list
  *
- * Return: the address of the new node or NULL if it failed
+ * Return:  the address of the new node, or NULL if it failed
+ * if it is not possible to add the new node at index idx, do not
+ * add the new node and return NULL
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *temp;
-	dlistint_t *ptr;
-	unsigned int count;
+  dlistint_t *tmp = *h, *new;
 
-	temp = NULL;
-	if (idx == 0)
-		temp = add_dnodeint(h, n);
-	else
+  if (idx == 0)
+    {
+      return (add_dnodeint(h, n));
+    }
+  for (; idx != 1; idx--)
+    {
+      tmp = tmp->next;
+      if (!tmp)
 	{
-		ptr = *h;
-		count = 1;
-		if (ptr != NULL)
-			while (ptr->prev != NULL)
-				ptr = ptr->prev;
-		while (ptr != NULL)
-		{
-			if (count == idx)
-			{
-				if (ptr->next == NULL)
-					temp = add_dnodeint_end(h, n);
-				else
-				{
-					temp = malloc(sizeof(dlistint_t));
-					if (temp != NULL)
-					{
-						temp->n = n;
-						temp->next = ptr->next;
-						temp->prev = ptr;
-						ptr->next->prev = temp;
-						ptr->next = temp;
-					}
-				}
-				break;
-			}
-			ptr = ptr->next;
-			count++;
-		}
+	  return (NULL);
 	}
+    }
+  if (!tmp->next)
+    {
+      return (add_dnodeint_end(h, n));
+    }
+  new = malloc(sizeof(dlistint_t));
 
-	return (temp);
+  if (!new)
+    {
+      return (NULL);
+    }
+  new->n = n;
+  new->prev = tmp;
+  new->next = tmp->next;
+  tmp->next->prev = new;
+  tmp->next = new;
+  return (new);
 }
