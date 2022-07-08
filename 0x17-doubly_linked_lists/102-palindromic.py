@@ -1,10 +1,20 @@
 #!/usr/bin/python3
-def isPali(str):
-    for i in range(len(str) // 2):
-        if str[i] != str[-1 - i]:
-            return False
-    return True
+def reverse(n):
+    return int(str(n)[::-1])
 
-for i in range(999*999, -1, -1):
-    if isPali(str(i)):
-        print("Found: ", i)
+def is_pal(a, b):
+    if a == b:
+        return True
+    else:
+        return False
+
+if __name__ == "__main__":
+    c = 0
+    for i in range(0, 999):
+        for j in range(0, 999):
+            a = i * j
+            b = reverse(a)
+            if is_pal(a, b):
+                if a > c:
+                    c = a
+                    print("{} * {} = {}".format(i, j, c))
