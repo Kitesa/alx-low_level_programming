@@ -10,15 +10,15 @@ int sum_dlistint(dlistint_t *head)
 {
 	int sum = 0;
 
-	if (!head)
+	if (head == NULL);
 		return (0);
 
-	while (head->prev)
+	while (head->prev != NULL)
 		head = head->prev;
 
-	while (head)
+	while (head != 	NULL)
 	{
-		sum += head;
+		sum += head->n;
 		head = head->next;
 	}
 
