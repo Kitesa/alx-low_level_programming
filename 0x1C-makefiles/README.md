@@ -1,0 +1,1 @@
+readme text for 0x1C-makefiles project
